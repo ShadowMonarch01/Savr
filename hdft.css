@@ -1,0 +1,251 @@
+/* Nav bar */
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px #414a4c;
+    z-index: 1;
+}
+
+.add-flex{
+    display: flex;
+    width: 10%;
+    /* background-color: gray; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.bar-logo{
+    width: 80px;
+    height: 70px;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 540;
+    font-family: sans-serif;
+}
+
+/* togglr button */
+.toggle_button{
+    position: absolute;
+    align-self:flex-end;
+    z-index: 3px;
+    /* top: 20px;
+    right: -10rem; */
+    display: none;
+    /* flex-direction: column; */
+}
+
+.top-btn-wrapper{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-btn{
+    height: 40px;
+    width: 74px;
+    border-radius: 10px;
+    border-width:2px ;
+    border-color: #110066;
+    color: #110066;
+    background-color: white;
+    margin-left: 8px;
+}
+
+.top-btn1{
+    height: 40px;
+    width: 74px;
+    border-radius: 10px;
+    border-width:2px ;
+    border-color: #110066;
+    color: #110066;
+    background-color: white;
+    display: none;
+}
+
+.top-btn-txt{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/*----------- Bottom Section ----------------*/
+.bottom-section{
+    height: 24vh;
+    width: inherit;
+    background-color: #110066;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btm-p1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.btm-p2{
+    margin-top: -8px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.btm-btn{
+    background-color: black;
+    height: 44px;
+    width: 160px;
+    border-width: 0px;
+    border-radius: 10px;
+
+}
+
+.btm-txt{
+    color: white;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /*------------------ Nav Bar --------------------------*/
+    header{
+        height: fit-content;
+        /* height: 22vh; */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .add-flex{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px;
+        /* background-color: green; */
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    /* .bar-logo{
+        margin-left: 10px;
+    } */
+
+    .anchor-link{
+        width: 100%;
+        
+    }
+    .top-btn-wrapper{
+        margin-right: 0px;
+        /* background-color: green; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px 4px 0px; 
+    }
+
+    .top-btn{
+        display: none;
+    }
+
+    .top-btn1{
+        width: 360px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-btn-wrapper, .price-link-pg{
+        display: none;
+    }
+
+    .sty-login{
+        margin-left: 20px;
+        margin-bottom: 24px;
+        margin-top: -28px;
+    }
+
+    .toggle_button{
+        display: flex;
+        /* background-color: green; */
+        width: fit-content;
+        height: 30px;
+        padding: 10px;
+        top: .98rem;
+        right: 1rem;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0 1px 6px #414a4c;
+    }
+
+    .tinactive{
+        display: flex;
+    }
+
+    .tactive{
+        display: none;
+    }
+
+    .tinactive.active{
+        display: none;
+    }
+
+    .tactive.active{
+        display: flex;
+    }
+
+    .top-btn-wrapper.active{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-btn-wrapper.active, .price-link-pg.active{
+        display: flex;
+    }
+
+    /*------------------- Bottom Footer --------------------*/
+    .bottom-section{
+        flex-direction: column;
+        height: fit-content;
+        padding: 0%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .btm-txts-container{
+        /* background-color: darkgreen; */
+        text-align: center;
+    }
+
+    .btm-p1{
+        font-size: 18px;
+    }
+
+    .btm-p2{
+        font-size: 12px;
+    }
+
+    /* .btm-btn-container{
+        background-color: #ffffff;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } */
+
+    .btm-btn{
+        margin-top: 20px;
+        width: 320px;
+    }
+}

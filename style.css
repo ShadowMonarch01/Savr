@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;500&family=Kanit:wght@300;400&family=Prompt&family=Russo+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* Top section */
+.top-section{
+    background-color: #110066;
+    color: #ffffff;
+    height: 88vh;
+    width: inherit;
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-s-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.w-c{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.top-s-logo{
+    height: 36px;
+    width: 36px;
+    margin-left: 4px;
+    margin-right: -5px;
+}
+
+.avr{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    /* font-family: 'Russo One', sans-serif;   */
+}
+
+.t-p-f{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 26px;
+}
+
+.mt{
+    margin-top: 26px;
+}
+
+/* .mb{} */
+
+.t-p-s{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+/* Middle Section -----------------*/
+.middle-section{
+    /* position: relative; */
+    width: inherit;
+}
+.phonedv{
+    background-color: white;
+    height: 48vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.pnone-img{
+    height: 80vh;
+    min-width: calc(100% - 72%);
+    position: absolute;
+    margin-top: -342px;
+    align-self: center;  
+}
+
+.middle-second-container{
+    /* background-color: #ECF9FF; */
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+}
+
+.m-s-p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #110066;
+}
+
+.container{
+    /* background-color: #414a4c; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #ffffff;
+    min-height: 330px;
+    width: 280px;
+    /* max-width: 280px;; */
+    border-radius: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px 5px #D3D3D3;
+}
+
+.c-big-txt{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.c-small-txt{
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+/* Third Section -------------*/
+.third-section{
+    height: 90vh;
+    width: inherit;
+    /* background-color: #414a4c; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-around;
+    padding-bottom: 20px;
+}
+
+.trd-container{
+    /* width: 40%; */
+    /* background-color: aquamarine; */
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.md-1{
+    /* padding-left: 40px;
+    padding-right: 30px; */
+    width: 32%;
+    margin-left: 50px;
+}
+
+.modify-trd{
+    width: 50%;
+    padding-left: 75px;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+.wrapper-column-flexed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card2{
+    /* background-color: blueviolet; */
+    background-color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    min-height: 136px;
+    min-width: 216px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* box-shadow: 0 8px 6px -6px #414a4c; */
+    box-shadow: 0 1px 6px #414a4c;
+}
+
+.circle{
+    background-color: #414a4c;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 4px;
+    flex-shrink: 2;
+}
+
+.p2{
+    font-style: 18px;
+    font-family: sans-serif;
+}
+
+.tr-md-p1{
+    font-size: 16px;
+    color: #110066;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.tr-md-h3{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.tr-md-p2{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 540;
+    color: grey;
+}
+
+.tr-md-btn{
+    width: 300px;
+    height: 46px;
+    background-color: #110066;
+    color: white;
+    border: #110066 ;
+    border-radius: 10px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 66px 0px 66px;
+}
+
+.tr-md-btn-p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.tr-md-btn-arrow{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    /* body {
+      background-color: lightblue;
+    } */
+
+    .top-section{
+        text-align: center;
+    }
+
+    .top-s-wrapper{
+        padding-top: 40px;
+    }
+
+    .t-p-f{
+        width: 380px;
+    }
+
+    /* .toggle-button{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        right: .5rem;
+        z-index: 20px;
+    } */
+
+    
+    
+    /* .phonedv{
+        flex-direction: column;
+        align-items: center;
+    } */
+    .top-section{
+        /* height: 95vh; */
+    }
+
+    .pnone-img{
+        height: 60vh;
+        min-width: calc(100% - 84%);
+        /* position: absolute;
+        margin-top: -342px; */
+        /* align-self: center;   */
+    }
+
+    .container{
+        /* background-color: #414a4c; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+
+    .middle-second-container{
+        height: fit-content;
+    }
+
+    .card{
+        background-color: #ffffff;
+        min-height: 260px;
+        width: 280px;
+        margin-bottom: 30px;
+    }
+
+    .third-section{
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .md-1{
+        margin-left: 0px;
+    }
+
+    .modify-trd{
+        width: 100%;
+        padding-left: 0px;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .trd-txts-container{
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+
+    .wrapper-column-flexed{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    
+  }
