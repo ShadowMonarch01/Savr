@@ -236,6 +236,11 @@ body{
         padding-right: 0px;
     }
 
+    .table-data p{
+        width: 100%;
+        font-family: sans-serif ;
+    }
+
     .ser-avabe{
         display: none;
     }
