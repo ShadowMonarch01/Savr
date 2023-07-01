@@ -205,14 +205,50 @@ body{
     box-shadow: 0 1px 6px #414a4c;
 }
 
+.c1{
+    background-color: #bde2ff;
+}
+
+.c2{
+    background-color: #fcd5d8;
+}
+
+.c3{
+   background-color: #f8e0cf; 
+}
+
+.c4{
+    background-color: #bcefdb;
+}
+
+.card2:hover .circle svg {
+    /* background-color: green; */
+    fill: #37bdfa;
+}
+
+.card2:hover .circle{
+    background-color: #2178b6;
+}
+
+.card2:hover{
+    background-color: #110066;
+    color: #fafafa;
+}
+
 .circle{
-    background-color: #414a4c;
+    /* background-color: #414a4c; */
     width: 60px;
     height: 60px;
     border-radius: 30px;
     margin-bottom: 4px;
     flex-shrink: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
 
 .p2{
     font-style: 18px;
