@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const price_link_pg1 = document.getElementsByClassName('price-link-pg')[1];
 
+    // dropdown section
+    const dropdown = document.getElementsByClassName('dropdown')[0];
+    const dropdown_content = document.getElementsByClassName('dropdown-content')[0];
+
     const v_btn = document.getElementsByClassName('tinactive')[0];
 
     const x_btn = document.getElementsByClassName('tactive')[0];
@@ -16,6 +20,12 @@ document.addEventListener('DOMContentLoaded',()=>{
         console.log('Hi')
         nav_button.classList.toggle('active')
         price_link_pg.classList.toggle('active')
+        if(dropdown){
+            dropdown.classList.toggle('active')
+        }
+        if(dropdown_content){
+            dropdown_content.classList.toggle('active')
+        }
         if(price_link_pg1){
             price_link_pg1.classList.toggle('active')
         }

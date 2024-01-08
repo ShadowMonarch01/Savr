@@ -35,6 +35,37 @@ header{
     font-family: sans-serif;
 }
 
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #110066;
+    color: #ffffff;
+}
+
 /* togglr button */
 .toggle_button{
     position: absolute;
@@ -79,6 +110,7 @@ header{
     font-size: 14px;
     font-family: sans-serif;
 }
+
 
 /*----------- Bottom Section ----------------*/
 .bottom-section{
@@ -146,6 +178,21 @@ header{
         margin-left: 0px;
         
     }
+
+    .dropdown {
+        display: none;
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .dropdown-content {
+        position: unset;
+        display: none;
+    }
+
+    
+
     .top-btn-wrapper{
         margin-right: 0px;
         /* background-color: green; */
@@ -215,6 +262,26 @@ header{
     .top-btn-wrapper.active, .price-link-pg.active{
         display: flex;
     }
+
+    .dropdown.active{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdown-content.active {
+        position: unset;
+        display: block;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        box-shadow: unset;
+    }
+
+    
+
+    
+
+    
 
     /*------------------- Bottom Footer --------------------*/
     .bottom-section{

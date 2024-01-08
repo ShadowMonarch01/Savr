@@ -20,53 +20,57 @@ document.addEventListener('DOMContentLoaded',()=>{
         x_btn.classList.toggle('active')
     });
 
-    // const Array_of_data = [
-    //     {
-    //         cl1:"Benefits",
-    //         cl2:"",
-    //         cl3:""
-    //     },
-    //     {
-    //         cl1:"Android APK",
-    //         cl2:"✓",
-    //         cl3:"✓"
-    //     },
-    //     {
-    //         cl1:"Android bundle",
-    //         cl2:"✓",
-    //         cl3:"✓"
-    //     },
-    //     {
-    //         cl1:"IOS IPA",
-    //         cl2:"✓",
-    //         cl3:"✓"
-    //     },
-    //     {
-    //         cl1:"Total projects",
-    //         cl2:"10",
-    //         cl3:"1"
-    //     },
-    //     {
-    //         cl1:"Daily Stats",
-    //         cl2:"✕",
-    //         cl3:"✓"
-    //     },
-    //     {
-    //         cl1:"Remote Push Notifications",
-    //         cl2:"✕",
-    //         cl3:"✓"
-    //     },
-    //     {
-    //         cl1:"Remote Campaings",
-    //         cl2:"✕",
-    //         cl3:"✓"
-    //     },
-    // ]
+    const Array_of_data = [
+        {
+            cl1:"Benefits",
+            cl2:"",
+            cl3:""
+        },
+        {
+            cl1:"Android APK",
+            cl2:"✓",
+            cl3:"✓"
+        },
+        {
+            cl1:"Android bundle",
+            cl2:"✓",
+            cl3:"✓"
+        },
+        {
+            cl1:"IOS IPA",
+            cl2:"✓",
+            cl3:"✓"
+        },
+        {
+            cl1:"Total projects",
+            cl2:"10",
+            cl3:"1"
+        },
+        {
+            cl1:"Daily Stats",
+            cl2:"✕",
+            cl3:"✓"
+        },
+        {
+            cl1:"Remote Push Notifications",
+            cl2:"✕",
+            cl3:"✓"
+        },
+        {
+            cl1:"Remote Campaings",
+            cl2:"✕",
+            cl3:"✓"
+        },
+    ]
 
-    // let output = document.getElementById('add_to_me');
+    const output = document.getElementById('add_to_me');
 
-    // for(let i = 0; i < Array_of_data.length; i++){
+    for(let i = 0; i < Array_of_data.length; i++){
 
-    //     output.innerHTML += `<p id="the-price"> <p>${Array_of_data[i].cl1}<p/>  <p>${Array_of_data[i].cl2}<p/> <p>${Array_of_data[i].cl3}<p/> </p>`
-    // }
+        output.innerHTML += `<div class="table-data" id="the-price"> 
+                            <p>${Array_of_data[i].cl1}<p/>  
+                            <p class="ser-avabe">${Array_of_data[i].cl2}<p/> 
+                            <p class="ser-avabe">${Array_of_data[i].cl3}<p/> 
+                            </div>`
+    }
 })
