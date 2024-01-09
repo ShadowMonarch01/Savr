@@ -151,6 +151,24 @@ header{
     color: white;
 }
 
+.consent-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    left: 45%;
+    margin-bottom: -70px;
+    margin-top:unset;
+    /* bottom: 20%; */
+}
+
+.consent-wrap a p{
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration:underline #ffffff;
+    
+}
+
 
 @media only screen and (max-width: 1000px) {
     /*------------------ Nav Bar --------------------------*/
@@ -316,5 +334,13 @@ header{
     .btm-btn{
         margin-top: 20px;
         width: 320px;
+    }
+
+    .consent-wrap{
+        
+        left: 45%;
+        margin-bottom: unset;
+        position: unset;
+        margin-top: 8px;
     }
 }
