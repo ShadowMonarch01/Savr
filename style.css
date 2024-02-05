@@ -17,9 +17,10 @@ body{
 .top-section{
     background-color: #110066;
     color: #ffffff;
-    height: 88vh;
+    min-height: 50vh;
     width: inherit;
     padding-top: 170px;
+    padding-bottom: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,16 +79,17 @@ body{
 }
 .phonedv{
     background-color: #fafafa;
-    height: 48vh;
+    /* background-color: #c0c0c0; */
+    height: 60vh;
     position: relative;
     display: flex;
     justify-content: center;
 }
 .pnone-img{
-    height: 72vh;
+    height: 70vh;
     min-width: calc(100% - 86%);
     position: absolute;
-    margin-top: -342px;
+    margin-top: -230px;
     align-self: center; 
     border-radius: 42px; 
 }
@@ -300,7 +302,12 @@ body{
     margin-top: -6px;
 }
 
+@media only screen and (max-width: 1210px) {
+    /* .top-section{
+        height: 130vh;
+    } */
 
+}
 
 @media only screen and (max-width: 1000px) {
     /* body {

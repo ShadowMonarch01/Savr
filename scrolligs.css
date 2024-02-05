@@ -1,0 +1,30 @@
+
+    
+
+
+    .marquee{
+      margin-top: 20px;
+      /* background-color: #111; */
+      width: 80vw;
+      height: 20vh;
+      overflow: hidden;
+      /* margin-bottom: 250px; */
+  }
+  
+  .marquee--inner{
+      height: 100%;
+      display: flex;
+      animation: scrolling 30s linear infinite;
+  }
+  
+  @keyframes scrolling{
+      /* 0% {transform: translateX(80vw);} */
+      0% {transform: translateX(0);}
+      100% {transform: translateX(-260vw);}
+  }
+  
+  .slide-logo{
+      /* border:3px solid teal; */
+      width: 20vw;
+      flex-shrink: 0;
+  }
