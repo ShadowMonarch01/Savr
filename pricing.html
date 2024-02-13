@@ -14,7 +14,9 @@
 
     <link href="hdft.css" rel="stylesheet"/>
     <link href="pricing.css" rel="stylesheet"/>
+    <link href="faqstyle.css" rel="stylesheet"/>
     <script src="scripts.js"></script>
+    <script src="faqscript.js"></script>
     <title></title>
   </head>
   <body>
@@ -72,6 +74,16 @@
             </div>
 
             <div class="pr-container aa-md-2 add-cl">
+                <p class="pr-container-pkg">Free</p>
+                <p class="pr-container-price">$0</p>
+                <p class="pr-container-persons">per user</p>
+
+                <button onclick="window.location.href='https://cracker.savrtech.com/';" class="pr-container-btn">
+                    <p>Get started</p>
+                </button>
+            </div>
+
+            <div class="pr-container aa-md-2 add-cl">
                 <p class="pr-container-pkg">Starter</p>
                 <p class="pr-container-price">$9.99</p>
                 <p class="pr-container-persons">per user</p>
@@ -89,6 +101,57 @@
                 <button onclick="window.location.href='https://cracker.savrtech.com/';" class="pr-container-btn">
                     <p>Get started</p>
                 </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq section -->
+    <section class="faq-section">
+        <h2 class="title">FAQs</h2>
+        
+        <div class="faq">
+            <div class="question">
+                <h3>What is a project ?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3l21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round" />
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>
+                    A SAVR project is essentially a mobile application. It holds your application configuration and can contain an indefinite number of builds. Your project will have an application ID and package ID.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h3>What is a build ?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3l21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round" />
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>
+                    A build is a unique iteration of your application with the same general project configuration and signature but different application resources and a different version number to enable app stores to distinguish between your builds. A build will contain an APK file, app bundle, and an IPA file (soon).
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h3>Can I submit my builds to app stores ?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3l21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round" />
+                </svg>
+            </div>
+
+            <div class="answer">
+                <p>
+                    Yes, you can submit your build files to the app store. After your first build, your application encryption keys will be made available on your project dashboard. Use these where necessary for submissions.
+                </p>
             </div>
         </div>
     </section>
@@ -127,6 +190,13 @@
                 <p>Total projects</p>
                 <p class="ser-avabe">10</p>
                 <p class="ser-avabe">1</p>
+            </div>
+
+            <!--  -->
+            <div id="the-price" class="table-data">
+                <p>Total builds</p>
+                <p class="ser-avabe"> unlimited</p>
+                <p class="ser-avabe"> unlimited</p>
             </div>
 
             <!--  -->
